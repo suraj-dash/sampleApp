@@ -1,0 +1,36 @@
+// .left-cont-down{
+//     border-radius: 5px;
+//     background: transparent linear-gradient(270deg, #E1EBF500 0%, #D1E0F0 100%) 0% 0% no-repeat padding-box;
+// }
+// .jumbotron{
+//     background: transparent linear-gradient(270deg, #E1EBF500 0%, #D1E0F0 100%) 0% 0% no-repeat padding-box;
+// }
+
+::ng-deep mat-card.mat-card.profile {
+    padding: 0;
+
+    mat-card-header {
+        .mat-card-header-text {
+            display: none;
+        }
+        img {
+            margin: auto;
+            width: 60%;
+            border-radius: 10px;
+        }    
+    }
+    mat-card-content {
+        text-align: center;
+        background: white;
+        text-align: center;
+        margin-top: 8px;
+        line-height: 15px;
+        color: black;
+        padding: 5px;
+        font-size: 10px;
+        b {
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+    }
+}
