@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a, button {
+    .btn-slick {
+        line-height: 26px;
+        min-width: 20px;
+        font-size: 12px;
+    }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a, button {
+    .btn-slick {
+        line-height: 26px;
+        min-width: 20px;
+        font-size: 12px;
+    }
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.btn-here-prim.mat-raised-button {
+    background: radial-gradient(circle at 100% 50%,#85e0ce,#e7e1a0);
+    transition: all 0s ease-out;
+    border-radius: 28px;
+    padding: 0 27px;
+}
+.btn-here-prim.mat-raised-button:hover {
+    background: #48dad0;
+}
